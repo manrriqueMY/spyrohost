@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="assets/custom/css/style.css">
+</head>
+<body>	
+
+<nav class="navbar">
+	<a class="navbar-brand" href="#">
+		<img src="assets/custom/img/logo_spyro_head-1.svg" class="d-inline-block align-top">
+	</a>
+	<div class="navbar-user">
+		<span>Bienvenido <strong>Spyrohost Manager</strong> </span>
+		<button class="btn btn-light" onclick="launchFullScreen()"><i class="fas fa-arrows-alt"></i></button>
+		<div class="dropdown">
+			<div class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<img src="assets/custom/img/perfil.jpg" class="img-fluid img-thumbnail" alt="...">
+			</div>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#"><i class="fas fa-user-edit"></i> Editar Perfil</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Salir</a>
+			</div>
+		</div> 	
+	</div>
+</nav>
+
+<div class="menu">
+  <div class="submenu">
+    <button class="dropbtn active">
+	  <i class="fas fa-desktop fa-2x"></i>
+      <span>Desktop</span> 
+      <i class="fas fa-caret-down"></i>
+    </button>
+    <div class="submenu-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <div class="submenu">
+    <button class="dropbtn">
+	  <i class="fas fa-cog fa-2x"></i>
+      <span>Sistema</span>    	 
+      <i class="fas fa-caret-down"></i>
+    </button>
+    <div class="submenu-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <div class="submenu">
+    <button class="dropbtn">
+      <i class="fab fa-product-hunt fa-2x"></i>
+      <span>Productos</span>    
+      <i class="fas fa-caret-down"></i>
+    </button>
+    <div class="submenu-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+    <div class="submenu">
+    <button class="dropbtn">
+      <i class="fas fa-users fa-2x"></i>
+      <span>Clientes</span>
+      <i class="fas fa-caret-down"></i>
+    </button>
+    <div class="submenu-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+    <div class="submenu">
+    <button class="dropbtn">
+	  <i class="fas fa-dolly fa-2x"></i>
+      <span>Ventas</span>
+      <i class="fas fa-caret-down"></i>
+    </button>
+    <div class="submenu-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+    <div class="submenu">
+    <button class="dropbtn">
+	  <i class="fas fa-clipboard-check fa-2x"></i>
+      <span>Finanzas</span>
+      <i class="fas fa-caret-down"></i>
+    </button>
+    <div class="submenu-content">
+      <a href="#"><i class="fas fa-university"></i> Bancos</a>
+      <a href="#"><i class="fas fa-copy"></i> Tipo de Cuenta</a>
+      <a href="#"><i class="fas fa-dollar-sign"></i> Monedas</a>
+      <a href="#"><i class="fas fa-hand-holding-usd"></i> Cuentas Bancarias</a>
+    </div>
+  </div> 
+    <div class="submenu">
+    <button class="dropbtn">
+	  <i class="fas fa-donate fa-2x"></i>
+      <span>Gastos</span>    
+      <i class="fas fa-caret-down"></i>
+    </button>
+    <div class="submenu-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <div class="submenu">
+    <button class="dropbtn">
+	  <i class="fas fa-chart-pie fa-2x"></i>
+      <span>Reportes</span>    	
+      <i class="fas fa-caret-down"></i>
+    </button>
+    <div class="submenu-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div>
+
+<div class="content">
+	<div class="title">
+		<i class="fas fa-desktop fa-2x"></i>
+    	<h3>&nbsp;Desktop</h3>
+	</div>
+	<div class="contenido">
+		<div>
+			<div>
+				<ul><li><div class="list-title">Clientes</div></li></ul>
+				<ul class="lista">
+					<li>
+						<div class="item">
+							<div>
+								<i class="fas fa-users fa-2x"></i>
+							</div>
+							<div>
+								<a href="#"><strong>Clientes</strong></a>
+								<small>Gestione los clientes</small>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<ul><li><div class="list-title">Ventas</div></li></ul>
+				<ul class="lista">
+					<li>
+						<div class="item">
+							<div>
+								<i class="fas fa-people-carry fa-2x"></i>
+							</div>
+							<div>
+								<a href="#"><strong>Ventas</strong></a>
+								<small>Gestione las ventas</small>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<div>
+								<i class="fas fa-align-justify fa-2x"></i>
+							</div>
+							<div>
+								<a href="#"><strong>Comprobantes</strong></a>
+								<small>Gestione los comprobantes de pago</small>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<ul><li><div class="list-title">Sistema</div></li></ul>
+				<ul class="lista">
+					<li>
+						<div class="item">
+							<div>
+								<i class="fas fa-users fa-2x"></i>
+							</div>
+							<div>
+								<a href="#"><strong>Usuarios</strong></a>
+								<small>Gestione los usuarios que accederán a su sitio web</small>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<div>
+								<i class="fas fa-user-cog fa-2x"></i>
+							</div>
+							<div>
+								<a href="#"><strong>Perfiles</strong></a>
+								<small>Gestione los permisos y perfiles de los usuarios de su sistema</small>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<div>
+								<i class="fas fa-cog fa-2x"></i>
+							</div>
+							<div>
+								<a href="#"><strong>Configuración</strong></a>
+								<small>Gestione las configuraciones del sistema</small>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div></div>
+		<div></div>
+	</div>
+</div>
+
+<div class="footer">
+	<span>Nuclear v2.0 - Spyrohost © 2020</span>
+</div>
+
+<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/custom/js/script.js"></script>
+
+</body>
+</html>
