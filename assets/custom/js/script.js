@@ -1,3 +1,6 @@
+$(document).ready(function() {
+  $(".nano").nanoScroller();
+});
 function launchFullScreen() {
   if (document.exitFullscreen) {
     document.exitFullscreen(); 
